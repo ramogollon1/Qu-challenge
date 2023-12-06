@@ -1,0 +1,36 @@
+import { Planet } from "../../models/Planets";
+
+export const mockPlanets: Planet[] = [
+  {
+    name: "Planet 1",
+    rotationPeriod: "24",
+    orbitalPeriod: "365",
+    diameter: "12742",
+    climate: "Climate 1",
+    gravity: "9.8",
+    terrain: "Terrain 1",
+    surfaceWater: "71",
+    population: "1000000",
+    residents: ["Resident 1", "Resident 2"],
+    films: ["Film 1", "Film 2"],
+    created: "2023-01-01",
+    edited: "2023-01-02",
+    url: "https://example.com/planet1",
+  },
+  {
+    name: "Planet 2",
+    rotationPeriod: "25",
+    orbitalPeriod: "366",
+    diameter: "12743",
+    climate: "Climate 2",
+    gravity: "9.81",
+    terrain: "Terrain 2",
+    surfaceWater: "72",
+    population: "2000000",
+    residents: ["Resident 3", "Resident 4"],
+    films: ["Film 3", "Film 4"],
+    created: "2023-01-03",
+    edited: "2023-01-04",
+    url: "https://example.com/planet2",
+  },
+];
