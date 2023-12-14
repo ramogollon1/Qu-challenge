@@ -49,3 +49,5 @@ npm test
 - React Testing Library: Utilities for testing React components.
 - ESLint: Static code analysis tool to identify and fix issues in the code.
 - TypeScript: Superset of JavaScript with optional static typing.
+
+### Screenshots
