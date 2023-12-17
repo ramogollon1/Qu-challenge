@@ -51,3 +51,5 @@ npm test
 - TypeScript: Superset of JavaScript with optional static typing.
 
 ### Screenshots
+
+![](https://github.com/ramogollon1/qu-challenge/blob/main/public/demo-list.png)

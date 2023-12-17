@@ -14,3 +14,15 @@ export type Planet = {
   edited: string;
   url: string;
 };
+
+export type FetchPlanetsParams = {
+  page: number;
+  filter?: string;
+};
+
+export enum SortingMethod {
+  ASC = "ASC",
+  DESC = "DESC",
+}
+
+export type PlanetSearchableProperties = "name" | "climate" | "terrain";
