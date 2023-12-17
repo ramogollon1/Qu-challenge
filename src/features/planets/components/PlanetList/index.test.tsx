@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 
-import PlanetList from "./PlanetList";
-import { mockPlanets } from "../../test/fixtures/planets";
+import PlanetList from ".";
+import { mockPlanets } from "../../../../test/fixtures/planets";
 
 test("renders planet 1 item correctly", () => {
   render(<PlanetList planets={mockPlanets} />);
